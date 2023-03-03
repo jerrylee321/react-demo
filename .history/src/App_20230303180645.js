@@ -1,4 +1,4 @@
-// import Friend from './pages/friend/friend';
+import Friend from './pages/friend/friend';
 import Home from './pages/home/home'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
        <Home></Home>
-       {/* <Friend friend={friend}></Friend> */}
+       <Friend friend={friend}></Friend>
     </div>
   );
 }
